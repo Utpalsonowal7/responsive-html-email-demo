@@ -6,7 +6,7 @@ A polished, **fictional sample campaign** built to demonstrate HTML email fronte
 
 - `index.html` — identical visual HTML with relative image paths, intended for a browser preview / GitHub Pages.
 - `email-template.html` — email-ready variant with absolute image URLs pointing to the intended GitHub Pages deployment. The URLs only work once the GitHub Pages repository is live under the exact name below.
-- `assets/` — local demonstration imagery cropped from scikit-image's bundled coffee example dataset.
+- `assets/` — self-contained SVG demonstration illustrations (the source package also contains photographic JPG assets; this GitHub version uses SVGs for reliable browser preview).
 
 ## Deployment (public GitHub Pages)
 
@@ -36,6 +36,6 @@ Classic Outlook for Windows: compose a new email using the HTML design, verify i
 - [ ] CTA, images, social links, unsubscribe placeholders replaced and checked
 - [ ] Outlook `.oft` created and manually verified
 
-## License / attribution
+## Media
 
-Sample photograph is drawn from the `skimage.data.coffee()` sample distributed by scikit-image, for demonstration. Use client-owned or licensed imagery in production.
+This GitHub-hosted browser demo uses custom SVG illustrations in `assets/`. Replace with approved client assets when commissioned. The SVGs are a demo substitute for the photographic JPGs in the downloadable ZIP.
